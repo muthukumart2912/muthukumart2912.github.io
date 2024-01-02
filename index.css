@@ -1,0 +1,62 @@
+/* color variables*/
+:root{
+    --white-col:#fff;
+    --gray-col:#ccc
+}
+
+/* changing background color*/
+
+body{
+    background: var(--white-col) !important;
+}
+/* changing the navigation link color */
+.nav-item .nav-link{
+    color: var(--white-col) !important;
+    font-size: 14px !important; 
+}
+.main{
+    height: 100vh;
+    background: url('businessman-woman-planning-success-illuminated-skyscraper-generated-by-ai.jpg') fixed no-repeat;
+    background-size: cover;
+}
+#skills i{
+    width: 100px;
+    height: 100px;
+}
+#Skills .myCards:hover{
+    background-color: var(--white-col) !important;
+    transition: .3s ease ;
+    box-shadow: 1px 1px 10px 1px var(--gray-col);
+}
+#Aboutme .myImage{
+    width: 300px;
+    height: auto;
+}
+#tree .img,
+#tree img,
+.hire-text h2
+{
+  position: relative ;
+}
+#tree .img::before {
+    content: "";
+    left: 50%;
+    width: 4px;
+    position: absolute;
+    height: calc(100% + 100px);
+    background: var(--gray-col) ;
+  }
+  #contact{
+    background: url('/images/wepik-export-20240101012120vlFi.png') fixed no-repeat;
+    background-size: cover;
+  }
+  .social-icons a {
+    width: 30px;
+    height: 30px;
+  }
+
+  #contact .butt:hover {
+    background-color: var(--gray-col);
+  }
+  
+ 
